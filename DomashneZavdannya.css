@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+h1{
+   
+    font-size: 1cm;
+    color: rgb(0, 0, 0);
+
+}
+span{
+    font-weight: 900;
+    font-size: 70px;
+}
+.spen{
+    font-weight: bolder;
+}
+p{
+  
+  font-size: 1cm;
+
+}
+
+.b{
+    font-style: oblique ;
+    
+}
+.d{
+    text-decoration: underline;
+    text-decoration-color: rgb(85, 0, 255);
+    text-underline-position: under;
+    text-decoration-style: wavy ;
+  
+}
+.e{
+   text-shadow: 3px -3px rgba(0, 255, 157, 0.738); 
+   
+   
+}
+.f{
+ font-variant-numeric: oldstyle-nums; 
+}
+.g{ 
+text-transform: capitalize;
+font-variant: small-caps;
+}
+.h{
+   letter-spacing: 5px;
+   word-spacing: 10px ;
+}
+.spun{
+    font-family: 'Press Start 2P'; 
+font-size: 90px;    
+color: rgb(153, 80, 255);
+
+}
+.k{
+    color: rgb(153, 80, 255);
+
+}
+.spin{
+    text-emphasis: 'x';
+    font-size: 40px;
+    
+}

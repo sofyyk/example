@@ -1,0 +1,49 @@
+h1{
+    background-image:url(https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg) ;
+font-size: 100px;
+color: rgb(164, 255, 220);
+background-size: cover;
+text-align: center;
+
+}body{
+   
+    background-image:url(https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif);
+background-repeat: no-repeat ;
+background-position: 90% 30% ;
+display: block;
+ 
+  
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.466),rgba(255, 255, 0, 0.389)),url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif);
+    border: dotted 10px red;
+    background-size: cover ;
+
+    
+}
+
+p{
+    text-emphasis: "*";
+   
+    font-size: 1cm;
+}
+
+.e{
+   height: 300px;
+    width: 300px;
+    box-shadow: 10 -10 rgb(255, 0, 0),rgb(255, 0, 0); 
+    border-radius: 50%;
+    
+    
+}
+.s{
+   border-width: 30px;  
+   border-style: solid;
+  border-image: linear-gradient(blue,white) 60;
+    height: 400px;
+    width: 500px;
+    float: right;
+    margin-right: 100px;
+}
