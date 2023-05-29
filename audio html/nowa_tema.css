@@ -1,0 +1,134 @@
+body{
+    color: blueviolet;
+    background-color: rgb(43, 43, 43);
+    
+}
+p{
+    border: solid 5px rgb(255, 214, 172);
+ 
+    padding-left:10px ;
+}
+
+
+
+.rg{
+
+    border: dotted 4px rgb(255, 196, 196);
+ display: inline-block; 
+
+}
+li{
+    border: dotted;
+    display: inline-block;
+    font-size: 1cm;
+}
+li:hover{
+    background-color: rgba(0, 70, 70, 0.388);
+
+}
+div{
+    height: 300px;
+    width: 300px;
+}
+.one{
+    border: double 10px forestgreen;
+
+}
+#two{
+    border: ridge 10px rgb(68, 0, 255)  ;
+    height: 300px;
+    width: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+#three{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: double 10px rgb(234, 0, 255);
+}
+#four,#fife{
+    border: dashed 10px red;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#w{
+border: double 5px red;
+height: 800px;
+width: 800px;
+display: flex;
+justify-content: center;
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAYiNTNIvgeykKTTqXWg3DQoTl0M9s_yhQZPv73QT0L610BxAFp4OSvT1LjVK_AsbFEY&usqp=CAU);
+    color: #000;
+    background-size: cover;
+}
+
+#w1{
+    border: double 5px rgb(238, 255, 0);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 600px;
+margin: 60px ;
+background-image: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616424102_15-p-krasivii-zadnii-fon-19.jpg) ;
+color: #000; 
+display: flex;  
+}
+    #w2{
+        border: double 5px rgb(0, 177, 32);
+        display: flex;
+        justify-content: center;
+    align-items: center;
+        height: 200px;
+width: 300px;
+margin: 60px;
+background: fixed;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrNnaBDs4c_yzhRUa-kVz905IYxAtn-1SC-w&usqp=CAU);
+color: #ffffff;
+        }
+        .a{
+
+ background: fixed;
+width: 100%;
+max-height: 100vh;
+ 
+    position: fixed;
+ height: 120px;
+ width: 120px;
+    color: #000;
+            }
+            #four{
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUZcp6l87RKtEmpDixFihxWE1o5JXs1NcR5Q&usqp=CAU);
+                color: #000;
+
+            }
+.mua{
+    transform: rotate(90deg);
+    float: right;
+    margin-top:180px ;
+    height: 70px;
+    width: 70px;
+    border: #000 3px double;
+    color: rgb(121, 82, 82);
+}
+.s{
+    border: #aeff00 5px double;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.abc{
+    background-color: rgb(0, 110, 255);
+  }
+  .p{
+    height: 100px;
+    width: 900px;
+    background-color: cornflowerblue;
+  }
