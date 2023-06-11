@@ -1,7 +1,7 @@
 
 header{
 
-height: 20vh;
+height: 200px ;
     background-color: rgb(165, 164, 164);
 }
 .bgvideo{
@@ -24,38 +24,42 @@ h1{
   z-index: 2;
   color: #fff;
 }
+p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 nav{
     width: 15%;
-    background-color: rgb(189, 251, 230);
-    height: 600px;
+   
     float: left;
 }
 ul{
     list-style: none;
 }
-li{
-    height: 30px ;
-    width: 80%;
+.hov{
+    height: 50px ;
+    width: 90%;
     border: 2px blue double;
     margin: 5px;
     text-decoration: none;
+    color: #000;
 }
-li:hover{
+.hov:hover{
     background-color: aquamarine;
 }
 main{
-    height: 600px;
     width: 70%;
-    background-color: rgb(255, 247, 0);
+   
     float: left;
 }
 aside{
-    height: 600px;
+    
     width: 15%;
-    background-color: rgb(251, 242, 189) ;
+   
     float: left;
 }
 footer{
+  clear: both;
     background-color: rgb(210, 152, 113);
     text-align: center;
     font-size: 40px;
@@ -74,7 +78,6 @@ a{
 
 
 iframe{
-  margin-top: 190px ;
   float: right;
 }
 
@@ -90,9 +93,36 @@ marquee{
   background-color: #e68a64;
 
 }
-li{
-  color: #000;
+
+.red{
+  width: 100px;
+  float: left;
+  font-size: larger;
 }
 audio{
-  float: right;
+  float: left;
+  margin-top: 10px;
+}
+.navig{
+  background: fixed;
+  position: fixed;
+margin: auto;
+background-color: rgb(226, 177, 43);
+font-size: 70px;
+margin-bottom: 30px;
+}
+.ho{
+  height: 38px ;
+  width: 90%;
+  border: 2px blue double;
+  margin: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+.ho:hover{
+  background-color: aquamarine;
+}
+h2{
+  text-align: center;
 }

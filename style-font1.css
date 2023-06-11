@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+p{
+    color: rgb(255, 255, 3);
+    font-size: 50px;
+}
+.zero{
+    text-transform: ;
+}
+.first{
+font-family: 'Press Start 2P';
+}
+.second{
+font-family: 'Rubik 80s Fade';
+}
+.third{
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.fff{
+    text-decoration: underline;
+    text-underline-position: under ;
+text-decoration-style: wavy;
+text-decoration-color: aqua;
+}
+.fff2{
+    text-decoration: underline;
+    text-underline-position: under ;
+text-decoration-style: dotted;
+text-decoration-color: rgb(255, 238, 0);}
+.shadow{
+     text-shadow: 5px -5px red;
+    font-size: 60px;
+}
+.s1{
+    font-size: 2em;
+    font-weight:300  ;
+    font-family: "Reggae One";
+}
