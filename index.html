@@ -13,15 +13,168 @@
     <title>new f1le</title>
 
 <style>
+
+body{
+  background-image: url(https://decoandlemon.com/media/catalog/product/2/2/22040010_2_1.jpg);
+border: red 10px double;
+}
+header{
+
+height: 200px ;
+    background-color: rgb(16, 164, 164);
+}
+.bgvideo{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.bgvideo video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
+}
+h1{
+  font-size: 7vw;
+  z-index: 2;
+  color: #fff;
+}
+p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+nav{
+    width: 15%;
+   background-color: #00ffcc;
+    float: left;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+
+main{
+    width: 70%;
+   
+    float: left;
+}
+aside{
+    
+    width: 15%;
+   background-color: #99ff00;
+    float: left;
+}
+footer{
+  clear: both;
+    background-color: rgb(210, 152, 113);
+    text-align: center;
+    font-size: 40px;
+ }
+  
+
+article{
+    background-color: #e68a64;
+    margin: 10px;
+    color: yellow;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+iframe{
+  float: right;
+}
+
+@media only screen and (max-width:620px){
+  nav,main,aside{
+width: 100%;
+  }
+}
+marquee{
+  background-color: #e68a64;
+}
+.h2{
+  background-color: #e68a64;
+
+}
+
+.red{
+  width: 100px;
+  float: left;
+  font-size: larger;
+}
+audio{
+  float: left;
+  margin-top: 10px;
+}
+.navig{
+  background: fixed;
+  position: fixed;
+margin:auto;
+background-color: bisque;
+font-size: 50px;
+margin-bottom: 30px;
+}
+.hov{
+    height: 50px ;
+    width: 90%;
+    border: 2px blue double;
+    margin: 5px;
+    text-decoration: none;
+        background-color: rgba(184, 97, 255, 0.982);
+
+  
+    text-align: center;
+    font-size: larger;
+    text-shadow: 0 0 10px rgb(255, 0, 0);
+
+}
+.hov:hover{
+    background-color: aquamarine;
+    transform: translateY(-5px);
+    color: #000;
+}
+.ho{
+  height: 45px ;
+  width: 90%;
+  border: 2px blue double;
+  margin: 5px;
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(255, 255, 0);
+  font-size: larger;
+        text-shadow: 0 0 10px rgb(255, 0, 0);
+  text-align: center;
+ 
+}
+
+.ho:hover{
+  background-color: aquamarine;
+   transform: translateY(-5px);
+
+   color: #000;
+}
+h2{
+  text-align: center;
+}
+.me{
+  background-color: #000;
+  font-size: 1cm;
+  height: 400px;
+}
+
     .chai{
-        background-image: url(https://kalix.club/uploads/posts/2022-12/1671646647_kalix-club-p-temnoe-derevo-tekstura-pinterest-2.jpg);
-      
-      font-weight: bolder;
-      font-size: 24px;
-      font-family: "Regular 400";
-      color: rgb(255, 255, 255);
-      text-shadow: 0 0 5px rgb(255, 157, 157), 0 0 10px rgb(0, 0, 0);
-      background-size: cover ;
+background-image: url(https://img.freepik.com/free-photo/solid-painted-concrete-wall-textured-backdrop_53876-110677.jpg);
+      font-weight: bolder; font-size: 24px;
+      font-family: "Regular 400"; color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 157, 157), 0 0 10px rgb(0, 0, 0);
+    background-size: cover ;
       }
     
       .g{
@@ -53,10 +206,7 @@
       width: 200px;
         
       }
-      li{
-        font-size: larger;
-        text-shadow: 0 0 10px rgb(255, 0, 0);
-      }
+    
       .e{
         background-color: blue;
       }
@@ -68,28 +218,31 @@
         font-size: larger;
       text-shadow: 0 0 15px rgb(227, 99, 250), 0 0 20px rgb(227, 99, 250);
       }
+      
     </style>
 </head>
-<body>
+<body> 
+ 
+      
     <header>
-       <div id="navigat"></div>  
         <div class="bgvideo"> <video src="video/sea_-_24216 (720p).mp4" autoplay loop muted></video>
-           <h1><div id="up"></div>my first site</h1>
-            <a href="#navigat" class="navig">До навігації </a>
+           <h1 style="color: black;"><div id="up"> <div id="navigat"></div></div>my first site</h1>
+        <a href="#navigat" class="navig" style="color: black;">До навігації </a>
+           
     </div></header>
-    <nav>
+    <nav>   
 
         <h2>навігація </h2>
         <ul>
-       <a href="#ist"> <li class="hov"> Історія</li></a>
-        <a href="#mif"><li class="hov">Міфи і перекази</li></a>
-      <a href="#kit">  <li class="hov"> Чай в Китаї </li></a>
-        <a href="#ev"> <li class="hov">Чай в Європі</li></a>
-        <a href="#uk"><li class="hov">Чай в Україні</li></a>
-       <a href="#cil"> <li class="hov">Цілолисті чаї </li></a>
-      <a href="#niz">  <li class="hov">Чаї низького ґатунку</li></a>
-        <a href="#med"><li class="hov">Медицина</li></a>
-        <a href="#ziv"><li class="hov">Мистецтво</li></a>
+       <a href="#ist"> <button class="hov"> <li>Історія</li></button></a>
+        <a href="#mif"> <button class="hov">Міфи і перекази</button></a>
+      <a href="#kit">  <button class="hov"> Чай в Китаї </button></a>
+        <a href="#ev"> <button class="hov">Чай в Європі</button></a>
+        <a href="#uk"> <button class="hov">Чай в Україні</button></a>
+       <a href="#cil"> <button class="hov">Цілолисті чаї </button></a>
+      <a href="#niz">  <button class="hov">Чаї низького ґатунку</button></a>
+        <a href="#med"> <button class="hov">Медицина</button></a>
+        <a href="#ziv"> <button class="hov">Мистецтво</button></a>
        
        
         
@@ -97,7 +250,17 @@
 </ul>   
 
 </nav>
+
     <main class="chai">
+    <div class="me"><h2>про мене </h2>
+    <section> Добрий день! </section>
+    <article>
+     мене звати Софія мені 12 і я вже рік вивчаю мову програмування JavaScript
+
+    </article>
+    <article>
+      Я хочу вивчати мову програмування  Java Script і далі. 
+    </article></div>
         <h1 style="text-align: center;">Чай</h1> 
         <span> Матеріал з Вікіпедії — вільної енциклопедії.
         35 змін у цій версії очікують на перевірку. Стабільну версію було перевірено 6 вересня 2021.
@@ -270,17 +433,16 @@
     
           </main>
     <aside> <h2> мої сайти </h2>
-       <ul>  <a href="1ter.html" target="_blank"><li  class="ho">Перші теги</li></a>
-        <a href="DomashneZavdanna.html" target="_blank"><li  class="hov"> шрифти</li></a>
-        <a href="font-2.html" target="_blank"><li class="ho">шрифти 2</li></a>
-        <a href="Gradients.html" target="_blank"><li  class="ho"> градіенти</li></a>
-             <a href="pic.html" target="_blank"><li  class="ho"> картинки</li></a>
-       <a href="run.html" target="_blank"><li  class="ho">ter marquee</li> </a>
-      <a href="tabl.html" target="_blank">  <li  class="ho"> таблиці</li></a> 
-      <a href="posilanna.html" target="_blank"><li  class="ho">кнопки</li></a>
-      <a href="nowa_tema.html" target="_blank">  <li  class="ho"> блоки</li></a>
-       <a href="index.html" target="_blank"> <li  class="ho"> аудіо,відео.</li></a>
-           <a href="map.html" target="_blank"><li  class="hov"> тег map</li></a>
+       <ul>  <a href="1ter.html" target="_blank"><button class="ho">Перші теги</li></a>
+        <a href="DomashneZavdanna.html" target="_blank"><button  class="ho"> шрифти</li></a>
+        <a href="Gradients.html" target="_blank"><button  class="ho"> градіенти</li></a>
+             <a href="pic.html" target="_blank"><button  class="ho"> картинки</li></a>
+       <a href="run.html" target="_blank"><button  class="ho">ter marquee</li> </a>
+      <a href="tabl.html" target="_blank">  <button  class="ho"> таблиці</li></a> 
+      <a href="posilanna.html" target="_blank"><button  class="ho">кнопки</li></a>
+      <a href="nowa_tema.html" target="_blank">  <button  class="ho"> блоки</li></a>
+       <a href="index.html" target="_blank"> <button  class="ho"> аудіо,відео.</li></a>
+           <a href="map.html" target="_blank"><button  class="ho"> тег map</li></a>
 
        
        
